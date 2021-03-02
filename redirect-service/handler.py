@@ -6,11 +6,12 @@ import uuid
 import time
 from common.dynamodb_queries import get_url_from_dynamodb, track
 
+URL_NOT_FOUND_REDIRECT = os.environ['URL_NOT_FOUND_REDIRECT']
 
 errorResponse = {
             "statusCode": 302,
             "headers": {
-                'Location': 'https://thomaszipner.com/sorry-the-redirect-failed'
+                'Location': URL_NOT_FOUND_REDIRECT
                 },
             "body": ""
         }
