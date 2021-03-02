@@ -88,7 +88,7 @@ Now you can set
 
 ```
 REDIRECT_SERVICE_DOMAIN="rdr.yourdomain.com"
-REDIRECT_SERVICE_BASE_URL="rhttps://rdr.yourdomain.com/"
+REDIRECT_SERVICE_BASE_URL="https://rdr.yourdomain.com/"
 ```
 
 
