@@ -58,6 +58,7 @@ function main() {
     'Installing Python Dependencies',
     '',
     `source venv/bin/activate \
+    && pip install --upgrade pip \
     && pip install -r requirements.txt
     `,
   )
