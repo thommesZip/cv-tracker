@@ -34,7 +34,7 @@ STACK_NAME="redirect-service-test"
 Name of the AWS CloudFormation Stack. Choose a unique name to make sure it does not conflict with other stacks.
 
 #### DynamoDB Tables
-**REDIRECT_URLS_TABLE="redirectUrlTable"
+**REDIRECT_URLS_TABLE**="redirectUrlTable"
 
 This table stores the redirect URLs and the information about the original destination, individual CV PDFetc.
 
