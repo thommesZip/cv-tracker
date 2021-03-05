@@ -34,34 +34,34 @@ STACK_NAME="redirect-service-test"
 Name of the AWS CloudFormation Stack. Choose a unique name to make sure it does not conflict with other stacks.
 
 #### DynamoDB Tables
-REDIRECT_URLS_TABLE="redirectUrlTable"
+**REDIRECT_URLS_TABLE="redirectUrlTable"
 
-This table stores the redirect URLs and the information about the original destination, individual CV PDF etc.
+This table stores the redirect URLs and the information about the original destination, individual CV PDFetc.
 
-REDIRECT_TRACKING_TABLE="redirectTrackingTable"
+**REDIRECT_TRACKING_TABLE**="redirectTrackingTable"
 
 This table will hold the actual tracking data of the click events
 
-IP_TABLE="ipTable"
+**IP_TABLE**="ipTable"
 
 This table is a cache for additional IP data
 
 
 #### Where to redirect if a url cannot be found?
-URL_NOT_FOUND_REDIRECT="https://thomaszipner.com/sorry-the-redirect-failed"
+**URL_NOT_FOUND_REDIRECT**="https://thomaszipner.com/sorry-the-redirect-failed"
 
 ### The API key of you ipdate account
 This key is for testing and actually works, but is highly rate limited. Create an account at https://ipdata.co/ to get your own API key.
 
-IPDATA_API_KEY="test"
+**IPDATA_API_KEY**="test"
 
 #### CV PDF
 
-CV_VERSION="1.0"
+**CV_VERSION**="1.0"
 Just some version number, so you can see what version was clicked.
 
-BASE_PDF="cv-with-links.pdf"
-FINAL_PDF="You Name - CV.pdf"
+**BASE_PDF**="cv-with-links.pdf"
+**FINAL_PDF**="You Name - CV.pdf"
 
 The name of the input PDF and the name to your output PDF. 
 You can use a file path, if it isin another folder.
