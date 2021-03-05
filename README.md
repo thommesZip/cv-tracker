@@ -50,7 +50,7 @@ This table is a cache for additional IP data
 #### Where to redirect if a url cannot be found?
 **URL_NOT_FOUND_REDIRECT**="https://thomaszipner.com/sorry-the-redirect-failed"
 
-### The API key of you ipdate account
+### The API key of you ipdata.co account
 This key is for testing and actually works, but is highly rate limited. Create an account at https://ipdata.co/ to get your own API key.
 
 **IPDATA_API_KEY**="test"
