@@ -33,7 +33,7 @@ STACK_NAME="redirect-service-test"
 
 Name of the AWS CloudFormation Stack. Choose a unique name to make sure it does not conflict with other stacks.
 
-#### DynamoDB Tables
+### DynamoDB Tables
 **REDIRECT_URLS_TABLE**="redirectUrlTable"
 
 This table stores the redirect URLs and the information about the original destination, individual CV PDFetc.
@@ -55,7 +55,7 @@ This key is for testing and actually works, but is highly rate limited. Create a
 
 **IPDATA_API_KEY**="test"
 
-#### CV PDF
+### CV PDF
 
 **CV_VERSION**="1.0"
 Just some version number, so you can see what version was clicked.
