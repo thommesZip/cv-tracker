@@ -30,12 +30,22 @@ Rename .env.sample to .env & change according to your needs.
 
 
 STACK_NAME="redirect-service-test"
+
 Name of the AWS CloudFormation Stack. Choose a unique name to make sure it does not conflict with other stacks.
 
 #### DynamoDB Tables
-REDIRECT_URLS_TABLE="redirectUrlTablexx"
-REDIRECT_TRACKING_TABLE="redirectTrackingTablexx"
-IP_TABLE="ipTablexx"
+REDIRECT_URLS_TABLE="redirectUrlTable"
+
+This table stores the redirect URLs and the information about the original destination, individual CV PDF etc.
+
+REDIRECT_TRACKING_TABLE="redirectTrackingTable"
+
+This table will hold the actual tracking data of the click events
+
+IP_TABLE="ipTable"
+
+This table is a cache for additional IP data
+
 
 #### Where to redirect if a url cannot be found?
 URL_NOT_FOUND_REDIRECT="https://thomaszipner.com/sorry-the-redirect-failed"
