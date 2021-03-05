@@ -1,5 +1,5 @@
 # CV Tracker
-This is a useful fun project. I wanted to know more about where my CVs go and what happens to them. Since they contain quite some links to my website, linkedIn, Gihtub etc... I thought, let´s track the link clicks!
+This is a little experiment. I wanted to know more about where my CVs go and what happens to them. Since they contain quite some links to my website, linkedIn, Gihtub etc... I thought, let´s try to apply e-mail tracking strategies to PDFs.
 
 ### This repo contains: 
 
@@ -10,9 +10,11 @@ This is a useful fun project. I wanted to know more about where my CVs go and wh
 
 ## Prerequisites
 
-- Serverless Framework
-- Python 3.x
-- Node.js
+- <a href="https://aws.amazon.com/de/free/" rel="noreferrer" target="_blank">AWS account</A>
+- <a href="https://aws.amazon.com/de/cli/" rel="noreferrer" target="_blank">AWS CLI</a>
+- <a href="https://www.serverless.com/framework/docs/providers/aws/guide/installation/" rel="noreferrer" target="_blank">Serverless Framework</a>
+- <a href="https://www.python.org/downloads/" rel="noreferrer" target="_blank">Python 3.x</a>
+- <a href="https://nodejs.org/en/" rel="noreferrer" target="_blank">Node.js</a>
 
 
 ## Setup
